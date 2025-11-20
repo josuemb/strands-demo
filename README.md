@@ -13,14 +13,50 @@ Este repositorio contiene 10 ejemplos progresivos que cubren:
 ## 🚀 Inicio Rápido
 
 ### Prerrequisitos
-- Python 3.10+
-- [uv](https://docs.astral.sh/uv/) (gestor de paquetes moderno)
+
+#### Instalar Python 3.10+
+**Sitio oficial**: https://www.python.org/downloads/
+
+```bash
+# Ubuntu/Debian
+sudo apt update
+sudo apt install python3.10 python3.10-pip
+
+# macOS (usando Homebrew)
+brew install python@3.10
+
+# Windows
+# Descargar desde https://www.python.org/downloads/
+# O usando winget:
+winget install Python.Python.3.10
+
+# Verificar instalación
+python3 --version  # Linux/macOS
+python --version   # Windows
+```
+
+#### Instalar uv (gestor de paquetes moderno)
+**Sitio oficial**: https://docs.astral.sh/uv/
+
+```bash
+# Linux/macOS - Instalación con curl
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows - PowerShell
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# O usando pip (todas las plataformas)
+pip install uv
+
+# Verificar instalación
+uv --version
+```
 
 ### Instalación
 
 ```bash
 # Clonar el repositorio
-git clone <repository-url>
+git clone https://github.com/josuemb/strands-demo.git
 cd strands-demo
 
 # Instalar dependencias
@@ -149,9 +185,11 @@ export OTEL_SDK_DISABLED=true
 
 ## 📖 Recursos Adicionales
 
-- [Documentación Strands Agents](https://docs.strands.ai)
+- [Documentación Strands Agents SDK](https://strandsagents.com)
 - [Guía MCP](https://modelcontextprotocol.io)
 - [Herramientas AWS MCP](https://github.com/awslabs/core-mcp-server)
+- [Herramientas preconstruidas de Strands Agents Tools](https://github.com/strands-agents/tools)
+- [Strands Agents - Repositorio oficial de ejemplos](https://github.com/strands-agents/samples)
 
 ## 🤝 Contribuir
 
