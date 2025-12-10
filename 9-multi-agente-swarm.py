@@ -10,7 +10,8 @@ Consulta → Investigador Web → Analizador Riesgos → Recomendador → Handof
 import os
 import warnings
 
-from strands import Agent, Swarm
+from strands import Agent
+from strands.multiagent import Swarm
 
 os.environ["OTEL_SDK_DISABLED"] = "true"
 warnings.filterwarnings("ignore", category=UserWarning, module="opentelemetry")
