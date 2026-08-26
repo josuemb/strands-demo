@@ -2,7 +2,7 @@
 
 Una colección completa de ejemplos prácticos que demuestran las capacidades de **Strands Agents**, desde agentes simples hasta sistemas multi-agente complejos con integración MCP.
 
-## 🎯 Propósito
+## Propósito
 
 Este repositorio contiene 10 ejemplos progresivos que cubren:
 - Configuración básica de agentes
@@ -10,7 +10,7 @@ Este repositorio contiene 10 ejemplos progresivos que cubren:
 - Patrones multi-agente (Swarm, Workflow, Graph)
 - Casos de uso del mundo real
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 ### Prerrequisitos
 
@@ -68,7 +68,7 @@ source .venv/bin/activate  # Linux/macOS
 .venv\Scripts\activate     # Windows
 ```
 
-## 📚 Ejemplos Incluidos
+## Ejemplos Incluidos
 
 ### Nivel Básico
 
@@ -132,7 +132,7 @@ agent = Agent(tools=[core_mcp_client])
 **Patrón**: Sequential workflow pipeline
 **Caso de uso**: Analizador de recetas con pipeline: Ingredientes → Validador → Nutricional → Sustitutos → Instrucciones.
 
-## 🛠️ Desarrollo
+## Desarrollo
 
 ### Flujo de Trabajo Obligatorio
 
@@ -166,7 +166,7 @@ strands-demo/
 └── .kiro/steering/                  # Configuración de desarrollo
 ```
 
-## 🔧 Configuración
+## Configuración
 
 ### Variables de Entorno
 ```bash
@@ -183,7 +183,7 @@ export OTEL_SDK_DISABLED=true
 - **strands-agents-tools**: Herramientas predefinidas
 - **mcp**: Model Context Protocol para herramientas avanzadas
 
-## 📖 Recursos Adicionales
+## Recursos Adicionales
 
 - [Documentación Strands Agents SDK](https://strandsagents.com)
 - [Guía MCP](https://modelcontextprotocol.io)
@@ -191,7 +191,7 @@ export OTEL_SDK_DISABLED=true
 - [Herramientas preconstruidas de Strands Agents Tools](https://github.com/strands-agents/tools)
 - [Strands Agents - Repositorio oficial de ejemplos](https://github.com/strands-agents/samples)
 
-## 🤝 Contribuir
+## Contribuir
 
 1. Fork el repositorio
 2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
@@ -200,6 +200,6 @@ export OTEL_SDK_DISABLED=true
 5. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 6. Crea un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT. Ver el archivo `LICENSE` para más detalles.
